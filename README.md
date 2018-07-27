@@ -30,7 +30,9 @@ Some useful commands I have found when using tmux (prefixed with 'ctrl a'):
 q  show pane numbers
 x  kill pane
 |  split horizontally
--  split vertically```
+-  split vertically
+```
+
 tmux also allows plugins that can further customize it's look and feel with 
 [tmux plugin manager](https://github.com/tmux-plugins/tpm)
 
@@ -84,15 +86,15 @@ Widgets, who doesn't like widgets? This allows you to display HTML5 widgets on y
 ### 6.3 Sublime Fun
 Useful hotkeys:
 
-|Description|Command|
-|---|---|
-|Box selection| Option + Left Click Drag|
-|File switch| Command + T|
-|Multiple selection| Command + D|
-|Add all lines to selection| Command + Shift + L|
-|Add single line to selection| Ctrl + Shift + Up/Down|
-|Search/Replace within file| Command + Alt + F|
-|S/R across all files| Command + Shift + F|
+| Description | Command |
+| --- | --- |
+| Box selection |  Option + Left Click Drag |
+| File switch |  Command + T |
+| Multiple selection |  Command + D |
+| Add all lines to selection |  Command + Shift + L |
+| Add single line to selection |  Ctrl + Shift + Up/Down |
+| Search/Replace within file |  Command + Alt + F |
+| S/R across all files |  Command + Shift + F |
 
 Color Scheme: Gruvbox
 Themes: Afterglow
