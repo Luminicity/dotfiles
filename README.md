@@ -26,7 +26,7 @@ The tmux config file is located at ~/.tmux.conf. If this doesnt exist, make one 
 - Enabled mouse control
 
 Some useful commands I have found when using tmux (prefixed with 'ctrl a'):
-o  swap panes
+```o  swap panes
 q  show pane numbers
 x  kill pane
 |  split horizontally
