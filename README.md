@@ -64,12 +64,15 @@ From Spotify you will have to obtain a device ID that authorizes mopidy to conne
 
 ### 5.3 [cli-visualizer](https://github.com/dpayne/cli-visualizer)
 Before installing, make sure your audio output is set properly in your mopidy.conf: 
-```[audio]
-output = tee name=t t. ! queue ! autoaudiosink t. ! queue ! audioresample ! audioconvert ! audio/x-raw,rate=44100,channels=2,format=S16LE ! wavenc ! filesink location=/tmp/mpd.fifo```
+```
+[audio]
+output = tee name=t t. ! queue ! autoaudiosink t. ! queue ! audioresample ! audioconvert ! audio/x-raw,rate=44100,channels=2,format=S16LE ! wavenc ! filesink location=/tmp/mpd.fifo
+```
 This allows external programs to read your audio data. Purely for visual purposes, there exist multiple music 'visualizers' that run your audio output through a Fourier Transform in order to visually represent frequencies. The resulting graph is then output to our terminal in aesthetically pleasing colors. 
 ```brew install fftw
 brew tap homebrew/dupes
-brew install ncurses```
+brew install ncurses
+```
 RTDC for customization of colors and styles.
 
 # 6  Miscellaneous
