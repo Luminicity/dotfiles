@@ -5,6 +5,8 @@ npm
 MacOS
 git
 ```
+[Wallpaper](https://imgur.com/gallery/4y6Tkoo)
+[Reddit](https://www.reddit.com/r/unixporn/comments/9213dg/chunkwm_macos_rice_first_try_rate_my_setup/)
 
 # 2 [iTerm2](https://www.iterm2.com/) and [zsh](https://ohmyz.sh/)
 iTerm2 allows versatile customization of the standard OS X terminal. Install it before doing anything else.
