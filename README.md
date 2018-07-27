@@ -36,17 +36,17 @@ x  kill pane
 tmux also allows plugins that can further customize it's look and feel with 
 [tmux plugin manager](https://github.com/tmux-plugins/tpm)
 
-# 4  [Neovim and vim-plug](https://github.com/neovim/neovim)
+# 4  [Neovim](https://github.com/neovim/neovim) and [vim-plug](https://github.com/junegunn/vim-plug)
 Install neovim, a vim fork focused on customizability. Neovim is run directly as 'nvim' and the config file can be found at ~/.config/nvim/init.vim. 
 vim-plug is  one of many plugin managers for vim and allows us to install cool plugins like [Nerdtree](https://github.com/scrooloose/nerdtree) and [YouCompleteMe](https://github.com/Valloric/YouCompleteMe). See my init.vim for more details. 
 
 # 5  Making it all pretty
 
-### 5.1  [neofetch] (https://github.com/dylanaraps/neofetch)
+### 5.1  [neofetch](https://github.com/dylanaraps/neofetch)
 A simple command line system information tool mostly used to show off your terminal. Can display custom images. 
 `brew install neofetch`
 
-### 5.2  [colorls] (https://github.com/athityakumar/colorls)
+### 5.2  [colorls](https://github.com/athityakumar/colorls)
 An 'ls' replacement that adds icons to the 'colorls' command and allows you to color different filetypes. Note that for icons to display properly, the Knack font must be installed and set under your iterm settings in Profiles > Text > non-ASCII Font. Icon colors can be customized according to this [list of supported colors](https://github.com/sickill/rainbow#color-list)
 `gem install colorls`
 
@@ -99,8 +99,8 @@ Useful hotkeys:
 | Search/Replace within file |  Command + Alt + F |
 | S/R across all files |  Command + Shift + F |
 
-Color Scheme: Gruvbox
-Themes: Afterglow
+- Color Scheme: Gruvbox
+- Theme: Afterglow
 
 ### 6.4 Chrome Extensions
 - BehindTheOverlay (gets rid of annoying adblock notifications on news websites)
